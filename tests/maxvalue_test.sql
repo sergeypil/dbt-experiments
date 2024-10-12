@@ -1,3 +1,1 @@
-SELECT COUNT(*)
-FROM metrics
-WHERE maxValue >= 100;
+SELECT COUNT(*) FROM metrics WHERE maxValue >= 100;
