@@ -1,15 +1,11 @@
-name: 'jaffle_shop'
+name: 'analytics_metrics'
 
 config-version: 2
 version: '0.1'
 
-profile: 'jaffle_shop'
+profile: 'test_profile'
 
 model-paths: ["models"]
-seed-paths: ["seeds"]
-test-paths: ["tests"]
-analysis-paths: ["analysis"]
-macro-paths: ["macros"]
 
 target-path: "target"
 clean-targets:
@@ -20,7 +16,5 @@ clean-targets:
 require-dbt-version: [">=1.0.0", "<2.0.0"]
 
 models:
-  jaffle_shop:
-      materialized: table
-      staging:
-        materialized: view
+  metrics:
+    materialized: view
