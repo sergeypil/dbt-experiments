@@ -6,7 +6,6 @@ version: '0.1'
 profile: 'test_profile'
 
 model-paths: ["models"]
-test-paths: ["tests"]
 
 target-path: "target"
 clean-targets:
