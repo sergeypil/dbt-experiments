@@ -1,3 +1,3 @@
-{{ config(materialized='view', schema='public') }}
+{{ config(materialized='table', schema='public') }}
 
-SELECT * FROM {{ ref('metrics') }}
+select * from metrics
