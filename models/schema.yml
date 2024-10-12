@@ -16,6 +16,7 @@ models:
         description: "The maximum value recorded for the metric in the specified time frame."
         tests:
           - not_null
+          - maxvalue_test
 
       - name: metricname
         description: "The name of the metric."
